@@ -1,0 +1,19 @@
+name: continual_learning_env
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python=3.12
+  - pandas
+  - pip
+  - mypy
+  - pytest
+  - pip:
+    - kaggle
+    - torch
+    - numpy
+    - scikit-learn
+    - matplotlib
+    - plotly
+    - tiktoken
+    - openai
